@@ -74,6 +74,70 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.availability {
+  color: #4e5b68;
+  font-size: 14px;
+}
+
+.participants-section {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #e1e5ea;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.participants-list {
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #eef2ff;
+  color: #3949ab;
+  font-size: 14px;
+  list-style: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 4px 0;
+}
+
+.empty-participants {
+  color: #707780;
+  font-style: italic;
+}
+
+.delete-participant {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  font-size: 20px;
+  line-height: 1;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.delete-participant:hover {
+  background-color: #c62828;
+  color: #fff;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
